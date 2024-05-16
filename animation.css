@@ -1,0 +1,20 @@
+body{
+    background: black;
+}
+    h1{
+    background: linear-gradient(45deg,violet,indigo,blue,green,yellow,orange,red);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size:70px;
+    font-family: fantasy;
+    font-weight: 50;
+  /*  animation: animated 10s linear infinite;*/
+
+
+}
+@keyframes animated{
+    to {
+        background-position-x: 200vh;
+    }
+}
